@@ -21,7 +21,7 @@ This plugin supports following functions:
 
 After [Homebridge](https://github.com/nfarina/homebridge) has been installed:
 
--  ```sudo npm i -g git://github.com/Hypovenom0180/homebridge-bravia-tvos.git```
+-  ```sudo npm i -g git://github.com/Hypovenom0180/homebridge-sony-bravia.git```
 
 ## Preparing the TV (PSK)
 
