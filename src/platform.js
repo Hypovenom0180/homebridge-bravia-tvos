@@ -121,7 +121,7 @@ BraviaOSPlatform.prototype = {
   
   addAccessory: function(object){
     
-    let external = false;
+    let external = true;
     if(!external||object.name.includes('Speaker')){
       this.logger.info('Adding new accessory: ' + object.name);
     } else {
