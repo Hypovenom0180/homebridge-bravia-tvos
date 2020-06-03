@@ -1,0 +1,60 @@
+{
+	"pluginAlias": "BraviaOSPlatform",
+	"pluginType": "platform",
+	"singular": true,
+	"headerDisplay": "TVs are exposed to HomeKit as separate accessories and each needs to be manually paired.",
+	"schema": {
+		"tvs": {
+			"type": "array",
+			"items": {
+				"title": "TVs",
+				"type": "object",
+				"properties": {
+					"name": {
+						"title": "Name",
+						"type": "string",
+						"placeholder": "TV name",
+						"required": true
+					},
+					"ip": {
+						"title": "IP Address",
+						"type": "string",
+						"placeholder": "IP address",
+						"required": true
+					},
+					"mac": {
+						"title": "MAC Address",
+						"type": "string",
+						"placeholder": "MAC address (Optional)",
+						"required": false
+					},
+					"port": {
+						"title": "Port",
+						"type": "integer",
+						"placeholder": "80",
+						"required": false
+					},
+					"psk": {
+						"title": "PSK",
+						"type": "string",
+						"placeholder": "PSK (Optional)",
+						"required": false
+					}
+				}
+			}
+		}
+	},
+	"layout": [{
+		"key": "tvs",
+		"type": "array",
+		"orderable": false,
+		"buttonText": "Add TV",
+		"items": [
+			"tvs[].name",
+			"tvs[].ip",
+			"tvs[].mac",
+			"tvs[].port",
+			"tvs[].psk"
+		]
+	}]
+}
