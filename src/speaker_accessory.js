@@ -10,8 +10,8 @@ const timeout = ms => new Promise(res => setTimeout(res, ms));
 
 var Service, Characteristic;
 
-const pluginName = 'homebridge-bravia-tvos';
-const platformName = 'BraviaOSPlatform';
+const pluginName = 'homebridge-sony-bravia';
+const platformName = 'SonyBravia';
 
 class SpeakerAccessory {
   constructor (platform, accessory, add) {

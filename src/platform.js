@@ -9,8 +9,8 @@ const debug = require('debug')('BraviaPlatform');
 const Device = require('./accessory.js');
 const Speaker = require('./speaker_accessory.js');
 
-const pluginName = 'homebridge-bravia-tvos';
-const platformName = 'BraviaOSPlatform';
+const pluginName = 'homebridge-sony-bravia';
+const platformName = 'SonyBravia';
 
 var Accessory, Service, Characteristic, UUIDGen;
 
@@ -21,10 +21,10 @@ module.exports = function (homebridge) {
   Characteristic = homebridge.hap.Characteristic;
   UUIDGen = homebridge.hap.uuid;
   
-  return BraviaOSPlatform;
+  return SonyBravia;
 };
 
-function BraviaOSPlatform (log, config, api) {
+function SonyBravia (log, config, api) {
   if (!api || !config) return;
 
   // HB
@@ -51,7 +51,7 @@ function BraviaOSPlatform (log, config, api) {
   }
 }
 
-BraviaOSPlatform.prototype = {
+SonyBravia.prototype = {
 
   _initPlatform: function(){
   
@@ -252,7 +252,7 @@ BraviaOSPlatform.prototype = {
     accessory.getService(Service.AccessoryInformation)
       .setCharacteristic(Characteristic.Name, accessory.displayName)
       .setCharacteristic(Characteristic.Identify, accessory.displayName)
-      .setCharacteristic(Characteristic.Manufacturer, 'SeydX')
+      .setCharacteristic(Characteristic.Manufacturer, 'Hypovenom0180')
       .setCharacteristic(Characteristic.Model, 'Sony')
       .setCharacteristic(Characteristic.SerialNumber, serial)
       .setCharacteristic(Characteristic.FirmwareRevision, packageFile.version);

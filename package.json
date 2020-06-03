@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-bravia-tvos",
+  "name": "homebridge-sony-bravia",
   "version": "3.1.0",
-  "description": "homebridge-bravia-tvos",
+  "description": "homebridge-sony-bravia",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SeydX/homebridge-bravia-tvos.git"
+    "url": "git+https://github.com/Hypovenom0180/homebridge-sony-bravia.git"
   },
-  "author": "SeydX (https://github.com/SeydX/homebridge-bravia-tvos)",
+  "author": "Hypovenom0180 (https://github.com/Hypovenom0180/homebridge-sony-bravia)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SeydX/homebridge-bravia-tvos/issues"
+    "url": "https://github.com/Hypovenom0180/homebridge-sony-bravia/issues"
   },
-  "homepage": "https://github.com/SeydX/homebridge-bravia-tvos#readme",
+  "homepage": "https://github.com/Hypovenom0180/homebridge-sony-bravia#readme",
   "keywords": [
     "bravia",
     "player",

@@ -1,5 +1,5 @@
 {
-	"pluginAlias": "BraviaOSPlatform",
+	"pluginAlias": "SonyBravia",
 	"pluginType": "platform",
 	"singular": true,
 	"headerDisplay": "TVs are exposed to HomeKit as separate accessories and each needs to be manually paired.",
