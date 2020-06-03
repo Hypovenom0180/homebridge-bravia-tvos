@@ -23,45 +23,34 @@ After [Homebridge](https://github.com/nfarina/homebridge) has been installed:
 
 -  ```sudo npm i -g git://github.com/Hypovenom0180/homebridge-sony-bravia.git```
 
-## Preparing the TV (PSK)
+## Preparing the TV with PSK (Prefered method)
 
 - Set **Remote start** to **ON** _(Settings -> Network -> Remote Start)_
 - Change **Authentication** to **Normal and Pre-Shared Key** _(Settings -> Network -> IP Control -> Authentication)_
 - Enter a **Pre-Shared Key** _(Settings -> Network -> IP control -> Pre-Shared Key)_
 
 
-## Preparing the TV (without PSK)
+## Preparing the TV without PSK
 
 - Set **Remote start** to **ON** _(Settings -> Network -> Remote Start)_
 - Change **Authentication** to **Normal** _(Settings -> Network -> IP Control -> Authentication)_
 
 
-## Configuration
+## Basic Configuration
 
  ```
-{
- "bridge": {
-   ...
-},
- "accessories": [
-   ...
-],
  "platforms": [
     {
-      "platform": "SonyBravia",
       "tvs": [
         {
-          "name": "Sony Lounge",
-          "ip": "192.168.178.3",
-          "port": 80,
-          "psk": "lipsum555"
+          "name": "Lounge TV",
+          "ip": "192.168.1.254",
+          "psk": "loungetvpsk"
         }
       ],
-      "interval": 10
+      "platform": "SonyBravia"
     }
- ]
-}
-
+  ]
  ```
 
 You can also configure the plugin through the Homebridge UI. At this stage, only some options are avaliable to configure via the Homebridge UI.

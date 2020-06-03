@@ -1,12 +1,16 @@
 # Changelog
 
+## 3.1.0
+- All TVs are now external accessories
+- Updated README
+- General tidy up
 
-## 3.0.5 - 2019-05-01
+## 3.0.5
 - Bugfixes
 - Use input label when defined [(#47)](https://github.com/SeydX/homebridge-bravia-tvos/pull/47)
 
 
-## 3.0.3 - 2019-04-30
+## 3.0.3
 - Bugfixes
 - Debugging improvements
 

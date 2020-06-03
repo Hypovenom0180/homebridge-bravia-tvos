@@ -22,12 +22,6 @@
 						"placeholder": "IP address",
 						"required": true
 					},
-					"mac": {
-						"title": "MAC Address",
-						"type": "string",
-						"placeholder": "MAC address (Optional)",
-						"required": false
-					},
 					"port": {
 						"title": "Port",
 						"type": "integer",
@@ -52,7 +46,6 @@
 		"items": [
 			"tvs[].name",
 			"tvs[].ip",
-			"tvs[].mac",
 			"tvs[].port",
 			"tvs[].psk"
 		]
