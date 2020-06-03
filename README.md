@@ -3,7 +3,7 @@
 </p>
 
 
-# Bravia tvOS
+# Sony Bravia
 
 This is a plugin for [Homebridge](https://github.com/nfarina/homebridge) to control your **Sony Bravia Android TV**. 
 
@@ -48,7 +48,7 @@ After [Homebridge](https://github.com/nfarina/homebridge) has been installed:
 ],
  "platforms": [
     {
-      "platform": "BraviaOSPlatform",
+      "platform": "SonyBravia",
       "tvs": [
         {
           "name": "Sony Lounge",
