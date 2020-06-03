@@ -3,7 +3,7 @@
 </p>
 
 
-# Sony Bravia
+# Bravia tvOS
 
 This is a plugin for [Homebridge](https://github.com/nfarina/homebridge) to control your **Sony Bravia Android TV**. 
 
