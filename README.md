@@ -91,5 +91,5 @@ You can contribute to this homebridge plugin in following ways:
 
 ## Credit
 
-A Huge thank you to SeydX and their homebridge-bravia-tvos plugin!
+A Huge thank you to SeydX and their homebridge-bravia-tvos plugin! This plugin is essentially their plugin with a few changes that enables support for Homebridge 1.0 and Config UI X.
 https://github.com/SeydX/homebridge-bravia-tvos#readme
