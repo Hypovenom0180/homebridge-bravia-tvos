@@ -1,5 +1,5 @@
 /**
- * v3.1
+ * v3.1.1
  *
  * @url https://github.com/Hypovenom0180/homebridge-sony-bravia
  * @author Hypovenom0180
