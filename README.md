@@ -2,6 +2,9 @@
     <img src="https://i.imgur.com/xnQyZaU.png" height="200">
 </p>
 
+# Deprecated ⚠️ 
+
+**The issues this plugin addressed have since been fixed in SeydX's original plugin here https://github.com/SeydX/homebridge-bravia-tvos#readme, therefore this plugin is not recommended to be used.**
 
 # Sony Bravia
 
